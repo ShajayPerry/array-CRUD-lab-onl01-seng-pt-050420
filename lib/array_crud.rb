@@ -7,8 +7,8 @@ random_colors = ["blue","green","yellow","pink"]
 end
  
 def add_element_to_end_of_array(array, element)
-random_colors = ["blue","green","yellow","pink"] 
-random_colors << "purple"
+array = ["blue","green","yellow","pink"] 
+element << "purple"
 end
 
 def add_element_to_start_of_array(array, element)
