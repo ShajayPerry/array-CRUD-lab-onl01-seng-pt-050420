@@ -7,6 +7,7 @@ random_colors = ["blue","green","yellow","pink"]
 end
  
 def add_element_to_end_of_array(array, element)
+random_colors = ["blue","green","yellow","pink"] 
 random_colors.push ("purple") 
 end
 
